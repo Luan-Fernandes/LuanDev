@@ -1,0 +1,179 @@
+.habilidades{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(../../images/WhatsApp\ Image\ 2023-05-17\ at\ 17.56.03.jpeg);
+    background-size: 100%;
+    height: 100vh;
+    transition: 1s;
+}
+.habilidadesD{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(../../images/WhatsApp\ Image\ 2023-05-17\ at\ 17.57.53.jpeg);
+    background-size: 100%;
+    height: 100vh;
+    transition: 1s;
+}
+.tecnologias{
+    color: green;
+    display: flex;
+    width: 260px;
+    flex-wrap: wrap;
+    background-color: rgba(0, 128, 0, 0.206);
+    border-radius: 30px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+
+}
+.iconHtml, .iconCss, .iconJs, .iconReact, .iconGit, .iconGithub,
+.iconVite, .iconSql, .iconTs, .iconNode, .iconMysql {
+    font-size: 70px;
+    color: green;
+    cursor: pointer;
+    transition: transform 0.5s, color 0.5s;
+}
+
+.iconHtml:hover, .iconCss:hover, .iconJs:hover, .iconReact:hover,
+.iconGit:hover, .iconGithub:hover, .iconVite:hover, .iconSql:hover,
+.iconTs:hover, .iconNode:hover, .iconMysql:hover {
+    color: black;
+    transform: rotate(15deg) scale(1.1);
+}
+
+.iconHtmlD, .iconCssD, .iconJsD, .iconReactD, .iconGitD, .iconGithubD,
+.iconViteD, .iconSqlD, .iconTsD, .iconNodeD, .iconMysqlD {
+    font-size: 70px;
+    color: green;
+    cursor: pointer;
+    transition: transform 0.5s, color 0.5s;
+}
+
+.iconHtmlD:hover, .iconCssD:hover, .iconJsD:hover, .iconReactD:hover,
+.iconGitD:hover, .iconGithubD:hover, .iconViteD:hover, .iconSqlD:hover,
+.iconTsD:hover, .iconNodeD:hover, .iconMysqlD:hover {
+    color: white;
+    transform: rotate(15deg) scale(1.1);
+}
+
+.textotec{
+    width: 45%;
+    height: 30vw;
+    text-align: center;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 128, 0, 0.206);
+    transition: 1s;
+    padding: 20px;
+    
+}
+.textotecD{
+    width: 45%;
+    height: 30vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgba(0, 128, 0, 0.206);
+    border-radius: 40px;
+    transition: 1s;
+    padding: 20px;
+}
+@media screen and (max-width: 1000px){
+    .habilidades{
+        display: flex;
+        flex-direction: column;
+        gap: 7vh;
+    }
+    .habilidadesD{
+        display: flex;
+        flex-direction: column;
+        gap: 7vh;
+    }
+    h1{
+        font-size: 4vw;
+    }
+    p{
+        font-size: 3vw;
+    }
+    .tecnologias{
+        color: green;
+        display: flex;
+        width: 70%;
+        flex-wrap: wrap;
+        background-color: rgba(0, 128, 0, 0.206);
+        border-radius: 30px;
+        padding: 10px;
+        border: 1px solid;
+        gap: 10px;
+        margin-left: 8%;
+    }
+    
+    .iconHtml, .iconCss, .iconJs, .iconReact, .iconGit, .iconGithub,
+.iconVite, .iconSql, .iconTs, .iconNode, .iconMysql {
+    font-size: 50px;
+    color: green;
+    cursor: pointer;
+    transition: transform 0.5s, color 0.5s;
+}
+
+.iconHtml:hover, .iconCss:hover, .iconJs:hover, .iconReact:hover,
+.iconGit:hover, .iconGithub:hover, .iconVite:hover, .iconSql:hover,
+.iconTs:hover, .iconNode:hover, .iconMysql:hover {
+    color: black;
+    transform: rotate(15deg) scale(1.1);
+}
+
+.iconHtmlD, .iconCssD, .iconJsD, .iconReactD, .iconGitD, .iconGithubD,
+.iconViteD, .iconSqlD, .iconTsD, .iconNodeD, .iconMysqlD {
+    font-size: 50px;
+    color: green;
+    cursor: pointer;
+    transition: transform 0.5s, color 0.5s;
+}
+
+.iconHtmlD:hover, .iconCssD:hover, .iconJsD:hover, .iconReactD:hover,
+.iconGitD:hover, .iconGithubD:hover, .iconViteD:hover, .iconSqlD:hover,
+.iconTsD:hover, .iconNodeD:hover, .iconMysqlD:hover {
+    color: white;
+    transform: rotate(15deg) scale(1.1);
+}
+
+    .textotec{
+        width: 70%;
+        height: 50%;
+        border-radius: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(0, 128, 0, 0.206);
+        position: relative;
+        top: -80px;
+        margin-left: 8%;
+    }
+    .textotecD{
+        width: 70%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        background-color: rgba(0, 128, 0, 0.206);
+        border-radius: 40px;
+        position: relative;
+        top: -80px;
+        margin-left: 8%;
+    }
+    
+}
